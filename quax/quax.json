@@ -1,7 +1,7 @@
 {
   "id": "quax",
   "family": "unknown",
-  "time": "2021-04-04T16:44:29.087Z",
+  "time": "2021-04-06T13:11:53.875Z",
   "releaseTime": "2015-12-03T09:24:39Z",
   "type": "release",
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",

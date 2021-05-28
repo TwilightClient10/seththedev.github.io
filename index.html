@@ -1,15 +1,38 @@
+<!DOCTYPE HTML>
 <html>
-<head>
-<meta charset="utf-8">
-<title>Download</title>
-<h1>Freedome and Quax download.</h1>
-</head>
-<body>
-<p>Freedome is unavailable due to violation of MCP's Terms Of Service.</p>
-<br>Quax PvP Client is downloadable and also has a custom made Installer.</br><a href="quax/installer/installer.jar"> Click here for it</a>
-<br>Double click the installer.jar file and it will install.</br>
-<br>Press Right Shift ingame to move the mods around.</br>
-<br>If you are bored </br><a href="https://seththedev.github.io/unityapp/">click here.</a>
-<button onclick="buttonclicked">Button</button>
-</body>
+    <head>
+        <title>Home</title>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <h1>Welcome to Seth's Webpage.</h1>
+        <h2>***Currently under development.***</h2>
+        <p></p>
+        <button onclick="onClicked()">Quax Homepage.</button>
+        <style>
+            h1{
+                text-align: center;
+                color: darkblue;
+                font-family: Verdana;
+            }
+            h2{
+                text-align: center;
+                color: darkblue;
+                font-family: Verdana;
+            }
+            body{
+                background-color: aquamarine;
+            }
+        </style>
+        <script>
+            function onClicked(){
+                var a = prompt("Are you sure you want to leave the homepage Y/N?");
+                if(a == "Y"){
+                    window.location.href = "https://sethestudio.com/quax/";
+                }else{
+                    alert("Not sure if you said No but if you said yes please note that you should say (Y) not anything else.");
+                }
+            }
+        </script>
+    </body>
 </html>

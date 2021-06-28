@@ -1,38 +1,53 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Home</title>
         <meta charset="utf-8"/>
+        <title>Seth's Website</title>
+        <h1>Seth Fernando's Website</h1>
     </head>
     <body>
-        <h1>Welcome to Seth's Webpage.</h1>
-        <h2>***Currently under development.***</h2>
-        <p></p>
-        <button onclick="onClicked()">Quax Homepage.</button>
         <style>
-            h1{
-                text-align: center;
-                color: darkblue;
-                font-family: Verdana;
+            @font-face{
+                font-family: 'BDCartoonShoutRegular';
+                src: url('PacmanStyle.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
             }
-            h2{
-                text-align: center;
-                color: darkblue;
-                font-family: Verdana;
+            head{
+                background-color: black;
             }
             body{
-                background-color: aquamarine;
+                background-image: url("images/image.jpg");
+            }
+            h1{
+                text-align: center;
+                color: blue;
+                font-family: BDCartoonShoutRegular;
+            }
+            h2{
+                text-align: left;
+                color: red;
+                font-family: Verdana;
+            }
+            a{
+                text-align: left;
+                color: green;
+                font-style: italic;
+                text-decoration-style: dotted;
+            }
+            h3{
+                text-align: left;
+                color: green;
+                font-style: italic;
+                text-decoration-style: dotted;
             }
         </style>
-        <script>
-            function onClicked(){
-                var a = prompt("Are you sure you want to leave the homepage Y/N?");
-                if(a == "Y"){
-                    window.location.href = "https://sethestudio.com/quax/";
-                }else{
-                    alert("Not sure if you said No but if you said yes please note that you should say (Y) not anything else.");
-                }
-            }
-        </script>
+        <h2>Hi, I am a 11 year old programmer. I know many languages such as Java, JavaScript, Python and C++.</h2>
+        <h2>Here are some of the Java projects I have written.</h2>
+        <a href="quaxtwo/index.html">QuaxTwo</a>
+        <p></p>
+        <a href="quaxbeat/index.html">QuaxBeat</a>
+        <h3>Quax (no longer under development)</h3>
+        <h3>QuaxHax (no longer under development)</h3>
     </body>
 </html>
